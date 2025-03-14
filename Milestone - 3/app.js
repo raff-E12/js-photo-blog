@@ -90,7 +90,7 @@ function HandlePhotoGen(title, data, id, img) {
 window.addEventListener("load", ()=>{
     HandleAPIGenResponse();
     if(!loading_cod){
-       parent_node.innerHTML = `  <div class="alert alert-danger alert-box-sc" role="alert">
+       parent_node.innerHTML = `  <div class="alert alert-danger alert-box-sc container-lg" role="alert">
                <h2>Caricamento...</h2>
               </div>`;
     }
