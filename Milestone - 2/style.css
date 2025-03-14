@@ -96,7 +96,7 @@ button {
     justify-content: flex-start;
     flex-direction: column;
     gap: 20px;
-    height: auto;
+    height: 100vh;
     background-image: url(../../img/cork.png);
     background-position: center;
     background-repeat: no-repeat;
