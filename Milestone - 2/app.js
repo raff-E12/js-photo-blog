@@ -5,11 +5,11 @@
 /**
  * Indice dei Componenti dello script:
  *
- * @type {"https://lanciweb.github.io/demo/api/pictures/"} - URL dell'Api per la risposta AJAX.
+ * @type {"https://lanciweb.github.io/demo/api/pictures/"} - URL dell'Api.
  * 
- * @var {"parent_node"} - Variabile di contenimento sull elemento "#parent-node".
+ * @var {parent_node} - Variabile di contenimento sull elemento "#parent-node".
  * 
- * @function {"HandleApiGenResponse"} - Funzione di chiamata Api con il metodo fetch().
+ * @function HandleApiGenResponse - Funzione di chiamata Api con il metodo fetch().
  * 
  */
 
