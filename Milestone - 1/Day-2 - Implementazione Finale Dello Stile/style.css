@@ -1,0 +1,226 @@
+/***** Inizio Reset Generale *****/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Elementi di testo */
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Link */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Immagini */
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Tabelle */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Form */
+input, textarea, select, button {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+button {
+    background: none;
+    cursor: pointer;
+}
+
+/***** Fine Reset Generale *****/
+
+/***** Stile Generale di pagina *****/ 
+
+.container-fluid.intestation-sc.d-flex{
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    background-image: url(img/wall.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-fluid.intestation-sc.d-flex h2{
+    font-family: "Edu TAS Beginner";
+    font-optical-sizing: auto;
+    font-weight: 766;
+    font-style: normal;
+    font-size: 2.488rem;
+    margin-bottom: 0;
+    color: black;
+}
+
+#root{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+    background-image: url(img/cork.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-lg.photo-sc.d-flex{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.photo{
+    width: 340px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    background-color: white;
+    position: relative;
+    box-shadow: 0px 10px 10px 2px #00000095;
+}
+
+.img-photo{
+    width: 100%;
+    background-color: #B32F20;
+    height: 250px;
+}
+
+.text-photo.d-flex{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    font-family: "Sometype Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 614;
+    font-style: normal;
+    font-size: 1.1rem;
+}
+
+.box-pin.d-flex{
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+    top: -27px;
+}
+
+.box-pin.d-flex img{
+    width: 100%;
+    padding: 20px;
+    filter: drop-shadow(0px 0px 7px #000000);
+}
+
+/***** Fine Generale di pagina *****/
+
+/***** Inizio Sezione MediaQuery *****/ 
+
+@media screen and (min-width: 739px) {
+    
+.container-lg.photo-sc.d-flex{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 22px;
+    padding: 20px;
+}
+
+.photo{
+    width: 330px;
+}
+
+}
+
+/***** Fine Sezione MediaQuery *****/
+
+/***** Inizio Sezione Foto Di Prova *****/
+
+
+#photo-1{
+    background-image: url(img/img-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#photo-2{
+    background-image: url(img/img-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#photo-3{
+    background-image: url(img/img-3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#photo-4{
+    background-image: url(img/img-4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#photo-5{
+    background-image: url(img/img-5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#photo-6{
+    background-image: url(img/img-6.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/***** Fine Sezione Foto Di Prova *****/
+
