@@ -73,7 +73,7 @@ button {
     justify-content: center;
     text-align: center;
     text-transform: uppercase;
-    background-image: url(img/wall.png);
+    background-image: url(../../img/wall.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -97,7 +97,7 @@ button {
     flex-direction: column;
     gap: 20px;
     height: auto;
-    background-image: url(img/cork.png);
+    background-image: url(../../img/cork.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -186,42 +186,42 @@ button {
 
 
 #photo-1{
-    background-image: url(img/img-1.jpg);
+    background-image: url(../../img/img-1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #photo-2{
-    background-image: url(img/img-2.jpg);
+    background-image: url(../../img/img-2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #photo-3{
-    background-image: url(img/img-3.jpeg);
+    background-image: url(../../img/img-3.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #photo-4{
-    background-image: url(img/img-4.jpg);
+    background-image: url(../../img/img-4.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #photo-5{
-    background-image: url(img/img-5.jpg);
+    background-image: url(../../img/img-5.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #photo-6{
-    background-image: url(img/img-6.jpeg);
+    background-image: url(../../img/img-6.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
