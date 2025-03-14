@@ -156,6 +156,11 @@ button {
     filter: drop-shadow(0px 0px 7px #000000);
 }
 
+::selection {
+    background: #F2DB66;
+    color: #ffffff; 
+}
+  
 /***** Fine Generale di pagina *****/
 
 /***** Inizio Sezione MediaQuery *****/ 
