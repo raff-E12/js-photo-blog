@@ -73,7 +73,7 @@ button {
     justify-content: center;
     text-align: center;
     text-transform: uppercase;
-    background-image: url(img/wall.png);
+    background-image: url(../../img/wall.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -97,7 +97,7 @@ button {
     flex-direction: column;
     gap: 20px;
     height: auto;
-    background-image: url(img/cork.png);
+    background-image: url(../../img/cork.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
