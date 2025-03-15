@@ -185,6 +185,10 @@ button {
     height: 1204px;
 }
 
+#root{
+    height: 270.4vh;
+}
+
 .photo{
     width: 330px;
 }
@@ -200,6 +204,10 @@ button {
         gap: 22px;
         padding: 20px;
         height: 840px;
+    }
+
+    #root{
+        height: 247.4vh;
     }
     
     .photo{
