@@ -96,7 +96,8 @@ button {
     justify-content: flex-start;
     flex-direction: column;
     gap: 20px;
-    height: 472.4vh;
+    /* height: 472.4vh; */
+    height: calc(472.4vh - 200px);
     overflow: hidden;
     background-image: url(../../img/cork.png);
     background-position: center;
@@ -270,7 +271,8 @@ button {
 }
 
 #root{
-    height: 270.4vh;
+    /* height: 270.4vh; */
+    height: calc(242.4vh - 120px);
 }
 
 .photo{
@@ -291,7 +293,8 @@ button {
     }
 
     #root{
-        height: 247.4vh;
+        /* height: 247.4vh; */
+        height: calc(242.4vh - 420px);
     }
     
     .photo{
